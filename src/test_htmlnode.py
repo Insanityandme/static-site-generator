@@ -15,5 +15,6 @@ class TestHtmlNode(unittest.TestCase):
             ' class="greeting" href="https://boot.dev"',
         )
 
+
 if __name__ == "__main__":
     unittest.main()
