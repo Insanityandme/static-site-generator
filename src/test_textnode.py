@@ -8,6 +8,7 @@ from textnode import (
     text_type_code,
     text_type_image,
     text_type_link,
+    split_nodes_delimiter
 )
 
 class TestTextNode(unittest.TestCase):
