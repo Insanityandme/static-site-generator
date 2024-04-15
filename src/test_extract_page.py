@@ -1,6 +1,6 @@
 import unittest
 
-from generate_page import extract_title, generate_page
+from generate_content import extract_title, generate_page
 
 class TestExtractPage(unittest.TestCase):
     def test_extract_title(self):
@@ -19,7 +19,11 @@ This is the same paragraph on a new line
 
         self.assertEqual(result, "I'm a heading")
 
-    def test_generate_page(self):
-        pass
+    # def test_generate_page(self):
+        # from_path = "content/index.md"
+        # template_path = "template.html"
+        # dest_path = "public/index.html"
+
+        # generate_page(from_path, template_path, dest_path)
         
 
